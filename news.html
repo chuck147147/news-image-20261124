@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 1024px; height: 1024px; font-family: Georgia, "Noto Serif", "DejaVu Serif", serif; background: #f7f2e7; color: #1a1710; overflow: hidden; }
+  .rule-top { border-top: 10px solid #8c1d18; }
+  .masthead { text-align: center; padding: 13px 30px 8px; border-bottom: 3px double #1a1710; }
+  .masthead .brand { font-size: 21px; letter-spacing: 6px; color: #8c1d18; font-weight: 700; }
+  .masthead .date { font-size: 46px; font-weight: 900; line-height: 1.08; }
+  .masthead .sub { font-size: 18px; letter-spacing: 3px; color: #5c5546; margin-top: 3px; }
+  .lead { display: flex; border-bottom: 2.5px solid #1a1710; }
+  .lead .txt { flex: 1; padding: 16px 26px 12px 30px; }
+  .kicker { font-family: "Noto Sans", "DejaVu Sans", sans-serif; color: #8c1d18; font-weight: 800; font-size: 16px; letter-spacing: 2.5px; }
+  .lead h1 { font-size: 38px; line-height: 1.12; font-weight: 900; margin: 6px 0 8px; }
+  .lead p { font-size: 18px; line-height: 1.42; color: #3d382c; }
+  .lead .art { width: 300px; background: #1a1710; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 14px 0 10px; }
+  .lead .art .cap1 { color: #f7f2e7; font-family: "Noto Sans", sans-serif; font-size: 20px; font-weight: 800; margin-top: 9px; text-align: center; letter-spacing: 1px; }
+  .lead .art .cap2 { color: #e0a458; font-family: "Noto Sans", sans-serif; font-size: 14.5px; margin-top: 2px; letter-spacing: 1.5px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; }
+  .story { padding: 9px 24px 6px; border-bottom: 1.5px solid #b9b09a; min-height: 112px; }
+  .story:nth-child(odd) { border-right: 1.5px solid #b9b09a; }
+  .story .tag { font-family: "Noto Sans", sans-serif; display: inline-block; font-size: 13.5px; font-weight: 800; letter-spacing: 1.6px; color: #f7f2e7; background: #8c1d18; padding: 2.5px 9px; margin-bottom: 6px; }
+  .story .tag.alt { background: #274156; }
+  .story h2 { font-size: 21.5px; line-height: 1.18; font-weight: 900; margin-bottom: 4px; }
+  .story p { font-size: 15px; line-height: 1.34; color: #4a4436; }
+  .band { border-top: 6px solid #8c1d18; padding: 9px 30px 2px; }
+  .band h1 { font-size: 27px; line-height: 1.18; font-weight: 900; margin: 4px 0 4px; }
+  .band p { font-size: 16px; line-height: 1.38; color: #3d382c; }
+  footer { display: flex; justify-content: space-between; padding: 9px 30px; font-size: 14.5px; color: #7a7260; border-top: 1.5px solid #b9b09a; margin-top: 6px; }
+</style>
+</head>
+<body>
+  <div class="rule-top"></div>
+  <div class="masthead">
+    <div class="brand">THE DAILY LEDGER</div>
+    <div class="date">24 NOVEMBER 2026</div>
+    <div class="sub">TUESDAY · THE WORLD IN ONE PAGE</div>
+  </div>
+
+  <div class="lead">
+    <div class="txt">
+      <div class="kicker">CHIP WAR · WASHINGTON</div>
+      <h1>US blacklists Singapore chip firm at centre of Nvidia scandal</h1>
+      <p>The Commerce Department moved to place Megaspeed, the Singapore-based firm at the heart of the Nvidia espionage affair, on its trade blacklist — US companies will need a licence to ship it goods, software or technology.</p>
+    </div>
+    <div class="art">
+      <svg width="200" height="128" viewBox="0 0 200 128">
+        <rect x="52" y="26" width="96" height="76" rx="8" fill="#2e4a62"/>
+        <rect x="76" y="46" width="48" height="36" fill="#e0a458"/>
+        <g stroke="#7dd3fc" stroke-width="5">
+          <path d="M66 26 v-14 M90 26 v-14 M114 26 v-14 M138 26 v-14"/>
+          <path d="M66 116 v-14 M90 116 v-14 M114 116 v-14 M138 116 v-14"/>
+          <path d="M52 44 H38 M52 64 H38 M52 84 H38"/>
+          <path d="M162 44 h-14 M162 64 h-14 M162 84 h-14"/>
+        </g>
+        <path d="M30 108 L170 20" stroke="#e63946" stroke-width="9" stroke-linecap="round"/>
+      </svg>
+      <div class="cap1">ENTITY LIST</div>
+      <div class="cap2">MEGASPEED · SINGAPORE</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="story">
+      <span class="tag">MIDDLE EAST</span>
+      <h2>Iran strikes Gulf sites and sues for $290bn as US tightens blockade</h2>
+      <p>Tehran stepped up attacks on US bases and civilian sites in the Gulf after a lull, and filed a $290bn claim as the US naval blockade and sanctions squeeze harder.</p>
+    </div>
+    <div class="story">
+      <span class="tag alt">ASIA-PACIFIC</span>
+      <h2>Russian jets enter South Korea's air defence zone</h2>
+      <p>Seoul issued an emergency alert for Ulleung Island after Russian warplanes entered its air defence zone without notice and a suspected North Korean aircraft violated its airspace.</p>
+    </div>
+    <div class="story">
+      <span class="tag">INDONESIA</span>
+      <h2>Factory fire search goes on: 24 dead, some 30 still missing</h2>
+      <p>Rescuers kept searching the ruins of the Milkita candy factory in Banten, where a fire that began on Friday has killed at least 24 workers.</p>
+    </div>
+    <div class="story">
+      <span class="tag alt">EUROPE</span>
+      <h2>EU proposes 22nd sanctions package against Russia</h2>
+      <p>Brussels' new package targets banks and crypto platforms and would bar Russian teams and athletes from competing under the Russian flag at EU events.</p>
+    </div>
+    <div class="story">
+      <span class="tag">TECH &amp; LAW</span>
+      <h2>Virginia and Oregon sue SpaceX over Grok's sexual imagery</h2>
+      <p>Two US states took SpaceX to court over sexual images generated by its Grok AI, escalating the legal fight over AI image tools.</p>
+    </div>
+    <div class="story">
+      <span class="tag alt">SPAIN</span>
+      <h2>Polls put Spain's right on course to oust Sánchez on Nov 29</h2>
+      <p>Five days before the general election, polling points to a right-wing victory that would end Pedro Sánchez's government.</p>
+    </div>
+  </div>
+
+  <div class="band">
+    <div class="kicker">SPORT · GENEVA</div>
+    <h1>Youngest world title match in chess history opens today</h1>
+    <p>Champion Gukesh Dommaraju of India, 20, defends his crown against Uzbekistan's Javokhir Sindarov, also 20, in Geneva — Sindarov has White in Game 1 of 14, with $2.5m at stake.</p>
+  </div>
+
+  <footer>
+    <span>One day, one page — the stories of Tuesday 24 November 2026</span>
+    <span>Sources: Reuters · AP · CNN · Chess.com</span>
+  </footer>
+</body>
+</html>
