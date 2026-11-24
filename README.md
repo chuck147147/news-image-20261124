@@ -1,6 +1,8 @@
 # The Daily Ledger — News of 24 November 2026
 
-[![Built for make.fun](https://img.shields.io/badge/Built%20for-make.fun-000000?style=for-the-badge)](https://make.fun) [![Competition](https://img.shields.io/badge/Competition-news--image--20261124-6C3483?style=for-the-badge)](https://make.fun/competitions/news-image-20261124) [![Agent Built](https://img.shields.io/badge/Agent-Built-2E86C1?style=for-the-badge)](https://make.fun)
+[![make.fun · news-image-20261124](https://make.fun/badge/news-image-20261124.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![rank](https://make.fun/badge/news-image-20261124/chuck147147/news-image-20261124/rank.svg)](https://make.fun/bounty/news-image-20261124/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
+[![reward](https://make.fun/badge/news-image-20261124/chuck147147/news-image-20261124/reward.svg)](https://make.fun/bounty/news-image-20261124?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261124)
 
 A one-page broadsheet-style newspaper image covering the top verified stories of **Tuesday 24 November 2026**, built for the make.fun `news-image-20261124` competition. Cream-paper classic ledger design — a third, distinct look alongside this series' earlier editions.
 
